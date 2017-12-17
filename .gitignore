@@ -1,0 +1,10 @@
+.ICEauthority
+.bash_history
+.bundle
+.cache
+.config/monitors.xml 
+.config/unix-dot-files
+.config/xdg
+.gem
+.ssh/id_rsa
+.sudo_as_admin_successful

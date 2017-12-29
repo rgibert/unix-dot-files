@@ -2,7 +2,12 @@
 .bash_history
 .bundle
 .cache
+.config/autostart
+.config/dotfiles
+.config/enchant
 .config/evolution
+.config/gedit
+.config/gnome-boxes
 .config/gnome-control-centre
 .config/gnome-control-center
 .config/google-chrome
@@ -10,6 +15,7 @@
 .config/gtk-3.0
 .config/ibus
 .config/libreoffice
+.config/libvirt
 .config/menus
 .config/mimeapps.list
 .config/monitors.xml 
@@ -17,6 +23,7 @@
 .config/pulse
 .config/totem
 .config/unix-dot-files
+.config/wallpapers
 .config/xdg
 .gem
 .gnome
@@ -29,11 +36,7 @@
 .ssh/known_hosts
 .sudo_as_admin_successful
 .thumbnails
+.viminfo
 .wine
-dev
-docs
-music
-pictures
-tmp
-videos
+[a-zA-Z0-9]*
 

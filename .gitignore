@@ -29,6 +29,7 @@
 .gnome
 .gnupg
 .gimp-2.8
+.lesshst
 .local
 .mozilla
 .pki
@@ -37,6 +38,7 @@
 .sudo_as_admin_successful
 .thumbnails
 .viminfo
+.wget-hsts
 .wine
 [a-zA-Z0-9]*
 

@@ -40,5 +40,7 @@
 .viminfo
 .wget-hsts
 .wine
+.zcompdump*
+.zsh_history
 [a-zA-Z0-9]*
 

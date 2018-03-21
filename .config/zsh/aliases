@@ -4,6 +4,7 @@ alias apt-get='sudo apt-get'
 alias yum='sudo yum'
 alias dnf='sudo dnf'
 alias rpm='sudo rpm'
+alias snap='sudo snap'
 
 alias ll='ls -alF --color=auto'
 alias la='ls -A --color=auto'

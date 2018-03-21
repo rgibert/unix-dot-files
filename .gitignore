@@ -1,4 +1,5 @@
 .ICEauthority
+.ansible_galaxy
 .bash_history
 .bundle
 .cache
@@ -34,6 +35,7 @@
 .local
 .mozilla
 .pki
+.rnd
 .ssh/id_rsa
 .ssh/known_hosts
 .sudo_as_admin_successful

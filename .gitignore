@@ -26,11 +26,13 @@
 .config/unix-dot-files
 .config/wallpapers
 .config/xdg
+.dbus
 .gem
 .gnome
 .gnupg
 .gimp-2.8
 .install4j
+.java
 .lesshst
 .local
 .mozilla
@@ -38,8 +40,10 @@
 .rnd
 .ssh/id_rsa
 .ssh/known_hosts
+.steam*
 .sudo_as_admin_successful
 .thumbnails
+.update-timestamp
 .viminfo
 .wget-hsts
 .wine

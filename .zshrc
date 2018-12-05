@@ -1,4 +1,4 @@
-export ZSH=${HOME}/.local/share/oh-my-zsh
+export ZSH=/etc/zsh/oh-my-zsh
 
 ZSH_THEME="bira"
 

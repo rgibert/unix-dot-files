@@ -27,10 +27,12 @@
 .config/wallpapers
 .config/xdg
 .dbus
+.flyrc
 .gem
 .gnome
 .gnupg
 .gimp-2.8
+.influx_history
 .install4j
 .java
 .lesshst
@@ -44,6 +46,7 @@
 .sudo_as_admin_successful
 .thumbnails
 .update-timestamp
+.vim/.netrwhist
 .viminfo
 .wget-hsts
 .wine

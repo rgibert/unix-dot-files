@@ -1,4 +1,5 @@
 .ICEauthority
+.Xauthority
 .ansible_galaxy
 .bash_history
 .bundle
@@ -48,9 +49,11 @@
 .update-timestamp
 .vim/.netrwhist
 .viminfo
+.wakatime.*
 .wget-hsts
 .wine
 .zcompdump*
+.zhistory
 .zsh_history
 [a-zA-Z0-9]*
 

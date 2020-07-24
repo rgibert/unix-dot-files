@@ -3,3 +3,5 @@
     name = Richard Gibert
 [pull]
     rebase = true
+[core]
+    excludesfile = /home/richard/.config/git/ignore

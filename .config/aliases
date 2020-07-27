@@ -6,6 +6,8 @@ alias dnf='sudo dnf'
 alias rpm='sudo rpm'
 alias snap='sudo snap'
 alias virsh='sudo virsh'
+alias pacman='sudo pacman'
+alias yay='sudo yay'
 
 alias ll='ls -alF --color=auto'
 alias la='ls -A --color=auto'

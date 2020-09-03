@@ -41,6 +41,7 @@
 .mozilla
 .pki
 .rnd
+.sqlite_history
 .ssh/id_rsa
 .ssh/known_hosts
 .steam*

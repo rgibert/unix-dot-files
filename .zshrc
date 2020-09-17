@@ -27,7 +27,7 @@ if [[ ! -d ~/.config/ansible/retry ]]; then
     mkdir -p ~/.config/ansible/retry
 fi
 
-for f in ~/.config/proxy ~/.config/aliases ~/.config/vars; do
+for f in ~/.config/proxy ~/.config/aliases ~/.config/vars ~/.config/secrets/*; do
     if [[ -f ${f} ]]; then
         source ${f}
     fi

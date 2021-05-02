@@ -4,6 +4,7 @@
 .bash_history
 .bundle
 .cache
+.cargo/
 .config/autostart
 .config/dotfiles
 .config/enchant
@@ -40,6 +41,7 @@
 .local
 .mozilla
 .pki
+.python_history
 .rnd
 .sqlite_history
 .ssh/id_rsa
@@ -53,6 +55,7 @@
 .wakatime.*
 .wget-hsts
 .wine
+.yarnrc
 .zcompdump*
 .zhistory
 .zsh_history

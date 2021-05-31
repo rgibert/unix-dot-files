@@ -1,0 +1,198 @@
+# General Starship options
+
+# Don't print a new line at the start of the prompt
+add_newline = false
+
+# Nor in the middle!
+[line_break]
+disabled = false
+
+[jobs]
+disabled = false
+
+# Use as prompt symbol a combination which creates a nice ligature in Fira Code
+[character]
+success_symbol = "[➜](bold green)"
+error_symbol = "[➜](bold red)"
+
+# Show previous command duration if longer than 10 seconds
+[cmd_duration]
+min_time = 10000
+format = "[⏱ $duration]($style)"
+
+# Truncate directories to one letter
+[directory]
+truncation_length = 1
+truncate_to_repo = false
+fish_style_pwd_dir_length = 1
+
+# Git branch - replace 'on ' with branch in brackets
+[git_branch]
+format = '\[[$symbol$branch]($style)\]'
+
+# Git status - configure symbols to my liking
+[git_status]
+format = '([\[$all_status$ahead_behind\]]($style))'
+style = ''
+stashed = '\$'
+ahead = "[⬆${count}](red)"
+behind = "[⬇${count}](red)"
+diverged = '[⬍](red)'
+conflicted = '[≠](red)'
+deleted = '[✘](red)'
+renamed = '[»](green)'
+modified = "[●](yellow bold)"
+staged = "[✔](green)"
+untracked = '[+](red)'
+disabled = false
+
+# Enable shlvl since I sometimes use subshells to test Elvish configurations,
+# it's good to know when I'm in a subshell
+[shlvl]
+disabled = false
+
+# Sample module which shows a simplified git status - a single symbol to
+# indicate when there are any pending changes.
+[custom.git_status_simplified]
+description = 'Single-symbol git status'
+when = 'test -n "$(git status --porcelain)"'
+symbol = '●'
+style = 'yellow bold'
+format = '\[[$symbol]($style)\]'
+shell = [ 'bash' ]
+disabled = true
+
+# Language-specific modules, mainly change the format since I don't like the
+# default 'via ' used by Starship, I prefer the information in brackets
+
+[aws]
+format = '\[[$symbol($profile)(\($region\))(\[$duration\])]($style)\]'
+disabled = true
+
+[cmake]
+format = '\[[$symbol($version)]($style)\]'
+
+[conda]
+format = '\[[$symbol$environment]($style)\]'
+
+[crystal]
+format = '\[[$symbol($version)]($style)\]'
+
+[dart]
+format = '\[[$symbol($version)]($style)\]'
+
+[deno]
+format = '\[[$symbol($version)]($style)\]'
+
+[docker_context]
+format = '\[[$symbol$context]($style)\]'
+
+[dotnet]
+format = '\[[$symbol($version)(🎯 $tfm)]($style)\]'
+
+[elixir]
+format = '\[[$symbol($version \(OTP $otp_version\))]($style)\]'
+
+[elm]
+format = '\[[$symbol($version)]($style)\]'
+
+[erlang]
+format = '\[[$symbol($version)]($style)\]'
+
+[gcloud]
+format = '\[[$symbol$account(@$domain)(\($region\))]($style)\]'
+
+[golang]
+format = '\[[$symbol($version)]($style)\]'
+
+[helm]
+format = '\[[$symbol($version)]($style)\]'
+
+[hg_branch]
+format = '\[[$symbol$branch]($style)\]'
+
+[java]
+format = '\[[$symbol($version)]($style)\]'
+
+[julia]
+format = '\[[$symbol($version)]($style)\]'
+
+[kotlin]
+format = '\[[$symbol($version)]($style)\]'
+
+[kubernetes]
+disabled = false
+format = '\[[$symbol$context( \($namespace\))]($style)\]'
+
+[lua]
+format = '\[[$symbol($version)]($style)\]'
+
+[memory_usage]
+format = '\[$symbol[$ram( | $swap)]($style)\]'
+disabled = true
+
+[nim]
+format = '\[[$symbol($version)]($style)\]'
+
+[nix_shell]
+format = '\[[$symbol$state( \($name\))]($style)\]'
+
+[nodejs]
+format = '\[[$symbol($version)]($style)\]'
+
+[ocaml]
+format = '\[[$symbol($version)(\($switch_indicator$switch_name\))]($style)\]'
+
+[openstack]
+format = '\[[$symbol$cloud(\($project\))]($style)\]'
+
+[package]
+format = '\[[$symbol$version]($style)\]'
+
+[perl]
+format = '\[[$symbol($version)]($style)\]'
+
+[php]
+format = '\[[$symbol($version)]($style)\]'
+
+[purescript]
+format = '\[[$symbol($version)]($style)\]'
+
+[python]
+format = '\[[${symbol}${pyenv_prefix}(${version})(\($virtualenv\))]($style)\]'
+
+[red]
+format = '\[[$symbol($version)]($style)\]'
+
+[ruby]
+format = '\[[$symbol($version)]($style)\]'
+
+[rust]
+format = '\[[$symbol($version)]($style)\]'
+
+[scala]
+format = '\[[$symbol($version)]($style)\]'
+
+[swift]
+format = '\[[$symbol($version)]($style)\]'
+
+[terraform]
+format = '\[[$symbol$workspace]($style)\]'
+
+[time]
+format = '\[[$time]($style)\]'
+
+[username]
+format = '\[[$user]($style)\]'
+
+[vagrant]
+format = '\[[$symbol($version)]($style)\]'
+symbol = '⍱'
+
+[vlang]
+format = '\[[$symbol($version)]($style)\]'
+
+[zig]
+format = '\[[$symbol($version)]($style)\]'
+
+

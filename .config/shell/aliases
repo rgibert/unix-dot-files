@@ -1,0 +1,30 @@
+alias dpkg='sudo dpkg'
+alias apt='sudo apt'
+alias apt-get='sudo apt-get'
+alias yum='sudo yum'
+alias dnf='sudo dnf'
+alias rpm='sudo rpm'
+alias snap='sudo snap'
+alias virsh='sudo virsh'
+alias pacman='sudo pacman'
+
+alias ll='ls -alF --color=auto'
+alias la='ls -A --color=auto'
+alias l='ls -CF --color=auto'
+
+alias grep='grep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias egrep='egrep --color=auto'
+
+alias service='sudo service'
+alias systemctl='sudo systemctl'
+
+alias reboot='sudo reboot'
+alias shutdown='sudo shutdown'
+
+alias dotgit='/usr/bin/git --git-dir=${HOME}/.config/dotfiles/ --work-tree=${HOME}'
+
+if [[ "${SHELL}" == "/bin/zsh" ]]; then
+  alias -s {cnf,conf,md,sls,tf,txt,yaml,yml}=code
+  alias -s git="git clone"
+fi

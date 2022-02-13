@@ -1,0 +1,12 @@
+export GPG_TTY=$(tty)
+export HOMEBREW_NO_ENV_HINTS=1
+export HOMEBREW_PREFIX="/opt/homebrew"
+export HOMEBREW_CELLAR="${HOMEBREW_PREFIX}/Cellar"
+export HOMEBREW_REPOSITORY="${HOMEBREW_PREFIX}"
+export INFOPATH="${HOMEBREW_PREFIX}/share/info:${INFOPATH:-}"
+export MANPATH="${HOMEBREW_PREFIX}/share/man{MANPATH+:$MANPATH}:"
+export PYENV_ROOT="${HOME}/.pyenv"
+export PATH="${PYENV_ROOT}/shims:${HOMEBREW_PREFIX}/bin:${HOMEBREW_PREFIX}/sbin:${HOMEBREW_PREFIX}/opt/grep/libexec/gnubin:${HOMEBREW_PREFIX}/opt/gnu-sed/libexec/gnubin:${PATH+:$PATH}"
+export PIP_DISABLE_PIP_VERSION_CHECK=1
+export XDG_CONFIG_HOME="${HOME}/.config"
+

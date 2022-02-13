@@ -1,0 +1,18 @@
+application/x-crossover-exe; "/Users/richard/Library/Application Support/CrossOver/desktopdata/CrossOver-0/cxassoc/Scripts/CrossOver-0:application_x-crossover-exe::install" '%s'; \
+    description="CrossOver (Install)"; \
+    test=test -n "$DISPLAY"
+x-content/win32-software; "/Users/richard/Library/Application Support/CrossOver/desktopdata/CrossOver-0/cxassoc/Scripts/CrossOver-0:application_x-crossover-exe::install" '%s'; \
+    description="CrossOver (Install)"; \
+    test=test -n "$DISPLAY"
+application/x-ms-shortcut; "/Users/richard/Library/Application Support/CrossOver/desktopdata/CrossOver-0/cxassoc/Scripts/CrossOver-0:application_x-crossover-lnk::run" '%s'; \
+    description="CrossOver (Run)"; \
+    test=test -n "$DISPLAY"
+application/x-win-lnk; "/Users/richard/Library/Application Support/CrossOver/desktopdata/CrossOver-0/cxassoc/Scripts/CrossOver-0:application_x-crossover-lnk::run" '%s'; \
+    description="CrossOver (Run)"; \
+    test=test -n "$DISPLAY"
+application/x-crossover-lnk; "/Users/richard/Library/Application Support/CrossOver/desktopdata/CrossOver-0/cxassoc/Scripts/CrossOver-0:application_x-crossover-lnk::run" '%s'; \
+    description="CrossOver (Run)"; \
+    test=test -n "$DISPLAY"
+application/x-crossover-msi; "/Users/richard/Library/Application Support/CrossOver/desktopdata/CrossOver-0/cxassoc/Scripts/CrossOver-0:application_x-crossover-msi::install" '%s'; \
+    description="CrossOver (Install)"; \
+    test=test -n "$DISPLAY"

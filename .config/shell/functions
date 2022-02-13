@@ -1,0 +1,10 @@
+function eval_if_exists() {
+  bin_loc="$(type -p ${1})" && [[ -n "${bin_loc}" ]] && eval "$(${@})"
+}
+
+function source_if_exists() {
+  for to_source in ${@}; do
+    [[ -f "${to_source}" ]] && source "${to_source}"
+  done
+}
+

@@ -1,8 +1,0 @@
-#!/usr/bin/env bash
-
-set -euo pipefail
-
-sudo mount /volume1/share0
-calibredb add "${1}" --with-library=/volume1/share0/ebooks/library
-rm "${1}"
-

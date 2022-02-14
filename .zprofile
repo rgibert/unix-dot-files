@@ -1,6 +1,8 @@
+#!/usr/bin/env zsh
+
 [[ -f "${HOME}/.config/shell/functions" ]] && source "${HOME}/.config/shell/functions"
 
-source_if_exists ${HOME}/.config/shell/*
+source_if_exists "${HOME}/.config/shell/*"
 
 if [[ ! -d ~/.config/ansible/retry ]]; then
     mkdir -p ~/.config/ansible/retry

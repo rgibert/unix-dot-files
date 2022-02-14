@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 eval "$(starship init bash)"
 
 if [[ ! -d ~/.config/ansible/retry ]]; then
@@ -5,8 +7,8 @@ if [[ ! -d ~/.config/ansible/retry ]]; then
 fi
 
 for f in ~/.config/proxy ~/.config/aliases ~/.config/vars ~/.config/secrets/*.secret; do
-    if [[ -f ${f} ]]; then
-        source ${f}
+    if [[ -f "${f}" ]]; then
+        source "${f}"
     fi
 done
 

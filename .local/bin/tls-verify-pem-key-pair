@@ -32,8 +32,8 @@ for ext in cer key; do
     fi
 done
 
-C=$(openssl x509 -noout -modulus -in ${fqdn}.cer | openssl md5)
-K=$(openssl rsa -noout -modulus -in ${fqdn}.key | openssl md5)
+C=$(openssl x509 -noout -modulus -in "${fqdn}.cer" | openssl md5)
+K=$(openssl rsa -noout -modulus -in "${fqdn}.key" | openssl md5)
 if [[ $(diff <(echo "${C}") <(echo "${K}") | wc -l) -eq 0 ]]; then
     echo "Key pair match"
     exit 0

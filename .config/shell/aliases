@@ -24,6 +24,8 @@ alias shutdown='sudo shutdown'
 
 alias dotgit='/usr/bin/git --git-dir=${HOME}/.config/dotfiles/ --work-tree=${HOME}'
 
+alias weather="curl wttr.in/Toronto"
+
 if [[ "${SHELL}" == "/bin/zsh" ]]; then
   alias -s {cnf,conf,md,sls,tf,txt,yaml,yml}=code
   alias -s git="git clone"

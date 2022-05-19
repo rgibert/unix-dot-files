@@ -29,6 +29,7 @@
 .config/unix-dot-files
 .config/wallpapers
 .config/xdg
+.docker
 .dbus
 .flyrc
 .gem
@@ -40,6 +41,7 @@
 .java
 .lesshst
 .mozilla
+.npm
 .pki
 .python_history
 .rnd

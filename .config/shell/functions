@@ -7,4 +7,3 @@ function source_if_exists() {
     [[ -f "${to_source}" ]] && source "${to_source}"
   done
 }
-

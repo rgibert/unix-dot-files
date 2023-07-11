@@ -8,4 +8,3 @@ fi
 
 eval_if_exists direnv hook zsh
 eval_if_exists pyenv init -
-

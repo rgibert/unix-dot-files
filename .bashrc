@@ -11,4 +11,3 @@ for f in ~/.config/proxy ~/.config/aliases ~/.config/vars ~/.config/secrets/*.se
         source "${f}"
     fi
 done
-

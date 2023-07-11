@@ -29,8 +29,9 @@
 .config/unix-dot-files
 .config/wallpapers
 .config/xdg
-.docker
 .dbus
+.docker
+.dream_history
 .flyrc
 .gem
 .gnome

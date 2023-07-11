@@ -9,4 +9,3 @@ export PYENV_ROOT="${HOME}/.pyenv"
 export PATH="${PYENV_ROOT}/shims:${HOMEBREW_PREFIX}/bin:${HOMEBREW_PREFIX}/sbin:${HOMEBREW_PREFIX}/opt/grep/libexec/gnubin:${HOMEBREW_PREFIX}/opt/gnu-sed/libexec/gnubin:${PATH+:$PATH}:${HOME}/.local/bin:${HOME}/.local/share/npm/bin"
 export PIP_DISABLE_PIP_VERSION_CHECK=1
 export XDG_CONFIG_HOME="${HOME}/.config"
-

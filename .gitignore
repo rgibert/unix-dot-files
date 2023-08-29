@@ -52,6 +52,7 @@
 .steam*
 .sudo_as_admin_successful
 .thumbnails
+.Trash/
 .update-timestamp
 .vim/.netrwhist
 .viminfo
